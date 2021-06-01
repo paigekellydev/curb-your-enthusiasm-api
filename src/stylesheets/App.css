@@ -1,0 +1,62 @@
+* {
+  font-family: "Cheyenne Sans Black";
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.navbar .navbar-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+.navbar .navbar-list a {
+  color: black;
+  text-decoration: none;
+}
+.navbar .navbar-list a h2 {
+  padding-right: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+.navbar .navbar-list a:hover, .navbar .navbar-list a:active {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: #fec901;
+}
+.navbar .curb-logo {
+  border-radius: 50%;
+  width: 2em;
+  display: flex;
+  align-items: left;
+}
+
+.title-section {
+  height: 100%;
+  background: #fec901;
+  padding-top: 1rem;
+  padding-left: 0rem;
+}
+.title-section h1 {
+  font-family: "Cheyenne Sans Black";
+  font-size: 4rem;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+}
+.title-section img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.title-section .larry-section {
+  background: #fec901;
+  height: 19rem;
+  background-image: url("../images/larry.jpeg");
+  background-repeat: space;
+}
+
+/*# sourceMappingURL=app.css.map */

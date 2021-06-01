@@ -1,0 +1,72 @@
+$curb-yellow: #fec901;
+$curb-white: #fafbfb;
+
+* {
+    font-family: 'Cheyenne Sans Black';
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+
+    .navbar-list {
+        list-style: none;
+        display: flex;
+        margin: 0;
+
+        a {
+            color: black;
+            text-decoration: none;
+            
+            h2 {
+                padding-right: 2rem;
+                font-size: 1.5rem;
+                letter-spacing: 3px;
+            }
+        };
+        
+        a:hover, a:active {
+            text-decoration: underline;
+            text-underline-offset: 1rem;
+            text-decoration-color: $curb-yellow;
+        }
+    }
+    .curb-logo {
+      border-radius: 50%;
+      width: 2em;
+      display: flex;
+      align-items: left;
+    };
+}
+
+.title-section {
+    height: 100%;
+    background: $curb-yellow;
+    padding-top: 1rem;
+    padding-left: 0rem;
+
+    h1 {
+        font-family: 'Cheyenne Sans Black';
+        font-size: 4rem;
+        margin: auto;
+        padding: 1em;
+        text-align: center;
+    }
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .larry-section {
+        background: $curb-yellow;
+        height: 19rem;
+        background-image: url('../images/larry.jpeg');
+        background-repeat: space;
+    }
+}
+
+
