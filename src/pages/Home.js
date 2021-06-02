@@ -8,7 +8,7 @@ export default function Home() {
         <div className="title-section">
             <h1>The Curb Your Enthusiasm API</h1>
             <section className="larry-section"></section>
-            <Showcase />
+            <Showcase className="showcase"/>
         </div>
     )
 }

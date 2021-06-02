@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 2rem;
+  margin: 1rem;
 }
 .navbar .navbar-list {
   list-style: none;
@@ -16,6 +16,10 @@
 .navbar .navbar-list a {
   color: black;
   text-decoration: none;
+}
+.navbar .navbar-list a button {
+  background-color: #fec901;
+  color: #fec901;
 }
 .navbar .navbar-list a h2 {
   padding-right: 2rem;
@@ -39,6 +43,8 @@
   background: #fec901;
   padding-top: 1rem;
   padding-left: 0rem;
+  background-size: cover;
+  align-items: center;
 }
 .title-section h1 {
   font-family: "Cheyenne Sans Black";
@@ -57,6 +63,75 @@
   height: 19rem;
   background-image: url("../images/larry.jpeg");
   background-repeat: space;
+  width: 100%;
+}
+.title-section .showcase {
+  background: black;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-top: 3em;
+  justify-content: center;
+}
+.title-section .showcase .character-card {
+  display: flex;
+  background: rgba(151, 150, 150, 0.281);
+  margin: 1rem;
+  border-radius: 3%;
+  box-shadow: 5px 5px 5px #fec901;
+  color: white;
+  letter-spacing: 3px;
+}
+.title-section .showcase .character-card h2 {
+  margin-top: 1em;
+  color: #fec901;
+  text-shadow: 1px 1px black;
+  font-family: "Cheyenne Sans Black";
+  letter-spacing: 4px;
+}
+.title-section .showcase .character-card .speech-bubble {
+  transform: rotate(10deg);
+  background-color: white;
+  border: 3px solid #fec901;
+  border-radius: 1em;
+  width: 10em;
+  text-align: center;
+  padding: 1em;
+  position: absolute;
+  margin-left: 10em;
+  font-family: "Helvetica";
+  font-style: italic;
+  color: black;
+}
+.title-section .showcase .character-card .speech-bubble .arrow {
+  border-style: solid;
+  position: absolute;
+}
+.title-section .showcase .character-card .bottom {
+  border-color: transparent;
+  border-width: 8px 8px 0px 8px;
+  bottom: -8px;
+}
+.title-section .showcase .character-card .bottom:after {
+  border-color: #fec901 transparent transparent transparent;
+  border-style: solid;
+  border-width: 7px 7px 0px 7px;
+  bottom: -3px;
+  content: "";
+  position: absolute;
+  left: 1rem;
+}
+.title-section .showcase .character-card .character-info {
+  padding: 3em;
+  padding-bottom: 0.5em;
+  padding-top: 4.7em;
+}
+.title-section .showcase .character-card p {
+  font-family: "Helvetica";
+}
+.title-section .showcase .character-card img {
+  border-radius: 3%;
 }
 
 /*# sourceMappingURL=app.css.map */
