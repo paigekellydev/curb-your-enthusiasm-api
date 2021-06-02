@@ -134,4 +134,46 @@
   border-radius: 3%;
 }
 
+.docs-navbar {
+  display: block;
+  background: rgba(128, 128, 128, 0.267);
+  height: 1000px;
+  border-right: solid 2px #fec901;
+}
+.docs-navbar ul {
+  list-style: none;
+}
+.docs-navbar li {
+  font-family: "Helvetica";
+}
+.docs-navbar .sub-list {
+  margin-left: 1rem;
+}
+.docs-navbar .sub-list a:hover, .docs-navbar .sub-list a:active {
+  color: #fec901;
+}
+.docs-navbar a {
+  color: black;
+  text-decoration: none;
+}
+.docs-navbar a h2 {
+  padding-right: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+.docs-navbar a:hover, .docs-navbar a:active {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: #fec901;
+}
+
+.docs-page {
+  display: flex;
+  border: solid 2px #fec901;
+}
+.docs-page .docs-container {
+  width: 100%;
+  margin-left: 5rem;
+}
+
 /*# sourceMappingURL=app.css.map */

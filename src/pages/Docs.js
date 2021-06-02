@@ -1,11 +1,12 @@
 import React from 'react'
 import DocsNavBar from '../components/DocsNavBar'
+import DocsContainer from '../containers/DocsContainer'
 
 export default function Docs() {
     return (
-        <div>
-           <h1>Docs</h1>
+        <div className="docs-page">
            <DocsNavBar />
+           <DocsContainer />
         </div>
     )
 }

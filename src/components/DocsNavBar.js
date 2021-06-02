@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function DocsNavBar() {
     return (
-        <nav>
+        <aside className='docs-navbar'>
             <ul>
                 <a href="#">
                     <li>
@@ -15,13 +15,13 @@ export default function DocsNavBar() {
                     </li>
                 </a>
                 <a href="#">
-                    <li>Character schema</li>
+                    <li className="sub-list">Character schema</li>
                 </a>
                 <a href="#">
-                    <li>Get all characters</li>
+                    <li className="sub-list">Get all characters</li>
                 </a>
                 <a href="#">
-                    <li>Get a single character</li>
+                    <li className="sub-list">Get a single character</li>
                 </a>
                 <a href="#">
                     <li>
@@ -34,6 +34,6 @@ export default function DocsNavBar() {
                     </li>
                 </a>
             </ul>
-        </nav>
+        </aside>
     )
 }
