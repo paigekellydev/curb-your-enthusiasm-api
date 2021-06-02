@@ -16,23 +16,23 @@ export default function NavBar(props) {
     }
     return (
     <nav className="navbar">
-        <button onClick={handleOnHome}>    
+        <a className="navbar-link" onClick={handleOnHome}>  
             <img 
                 src={ curbLogo } 
                 alt="curb-logo" 
                 className="curb-logo"
             />
-        </button>
+        </a>
         <ul className="navbar-list">
             <li>
-                <button className="navbar-link" onClick={handleOnDocs}>
+                <a className="navbar-link" onClick={handleOnDocs}>
                     <h2>Docs</h2>
-                </button>
+                </a>
             </li>
             <li>
-                <button className="navbar-link" onClick={handleOnAbout}>
+                <a className="navbar-link" onClick={handleOnAbout}>
                     <h2>About</h2>
-                </button>
+                </a>
             </li>
         </ul>
     </nav>

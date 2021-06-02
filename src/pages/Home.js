@@ -1,5 +1,5 @@
 import React from 'react'
-import Showcase from './Showcase'
+import Showcase from '../containers/Showcase'
 import larryLogo from '../images/larry.jpeg'
 
 

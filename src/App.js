@@ -5,36 +5,32 @@ import React, { Component } from 'react';
 
 class App extends Component {
   state = {
-        display: [true, false, false]
+    display: "home"
   }
   
   handleOnClick = (pageName) => {
 
     if (pageName === 'home') {
       this.setState({
-        display: [true, false, false]
+        display: "home"
       })
     } else if (pageName === 'docs') {
       this.setState({
-        display: [false, true, false]
+        display: "docs"
       })
     } else if (pageName === 'about') {
       this.setState({
-        display: [false, false, true]
+        display: "about"
       })
-    } else {
-      this.setState({
-        display: [true, false, false]
-      })
-    }
+    } 
   }
   
   render() {
 
     return (
       <div className="App">
-        <Header handleOnClick={this.handleOnClick} />
-        <Main displayState={this.state.display}/>
+        <Header handleOnClick={this.handleOnClick}/>
+        <Main display={this.state.display}/>
       </div>
     );
   }

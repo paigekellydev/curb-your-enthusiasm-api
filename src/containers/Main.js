@@ -1,28 +1,24 @@
-import React, { Component } from 'react';
-import Home from './Home'
-import Docs from './Docs';
-import About from './About';
+import React from 'react';
+import Home from '../pages/Home'
+import Docs from '../pages/Docs';
+import About from '../pages/About';
 
-class Main extends Component {
-
-    displayContainer = () => {
-        if (this.props.displayState === [true, false, false]) {
-            return (<Home />)
-        } else if (this.props.displayState === [false, true, false]) {
-            return (<Docs />)
-        } else if (this.props.displayState === [false, false, true]){
-            return (<About />)
+export default function Main(props) {
+    const displayContainer = () => {
+        if (props.display === "home") {
+            return <Home />
+        } else if (props.display == "docs") {
+            return <Docs />
+        } else if (props.display == "about"){
+            return <About />
         }        
     }
 
-    render() {
-        return (
+    return (
         <main>
-            {this.displayContainer()}
+            {displayContainer()}
         </main>
-        );
-    }
+    )
 }
 
-export default Main;
 

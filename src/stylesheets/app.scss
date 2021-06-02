@@ -16,9 +16,14 @@ $curb-white: #fafbfb;
         display: flex;
         margin: 0;
 
+        
         a {
             color: black;
             text-decoration: none;
+            button {
+                background-color: $curb-yellow;
+                color: $curb-yellow;    
+            }
             
             h2 {
                 padding-right: 2rem;
@@ -68,5 +73,6 @@ $curb-white: #fafbfb;
         background-repeat: space;
     }
 }
+
 
 
