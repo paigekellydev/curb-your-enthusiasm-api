@@ -1,13 +1,28 @@
-import React from 'react'
-import Title from '../components/Title'
-import Showcase from './Showcase'
+import React, { Component } from 'react';
+import Home from './Home'
+import Docs from './Docs';
+import About from './About';
 
-export default function Main() {
+class Main extends Component {
 
-    return (
+    displayContainer = () => {
+        if (this.props.displayState === [true, false, false]) {
+            return (<Home />)
+        } else if (this.props.displayState === [false, true, false]) {
+            return (<Docs />)
+        } else if (this.props.displayState === [false, false, true]){
+            return (<About />)
+        }        
+    }
+
+    render() {
+        return (
         <main>
-            <Title />
-            <Showcase />
+            {this.displayContainer()}
         </main>
-    )
+        );
+    }
 }
+
+export default Main;
+

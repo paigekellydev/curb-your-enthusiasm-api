@@ -1,10 +1,13 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 
-export default function Header() {
+export default function Header(props) {
+    console.log(props)
     return (
         <header>
-            <NavBar />
+            <NavBar 
+               handleOnClick={props.handleOnClick}
+            />
         </header>
     )
 }
