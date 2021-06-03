@@ -3,7 +3,7 @@ $curb-white: #fafbfb;
 
 * {
     font-family: 'Cheyenne Sans Black';
-}
+} 
 
 .navbar {
     display: flex;
@@ -78,7 +78,7 @@ $curb-white: #fafbfb;
 
     .showcase {
         background: black;
-        padding: 1rem;
+        padding: 9rem;
         display: flex;
         flex-wrap: wrap;
         margin: auto;
@@ -88,10 +88,10 @@ $curb-white: #fafbfb;
         .character-card {
             display: flex;
             background:black;
-            margin: 1rem;
-            border-radius: 3%;
-            box-shadow: 5px 5px 5px $curb-yellow;
-            color: white;
+            margin: 2.5rem;
+            border-radius: 0.2rem;
+            box-shadow: 3px 3px 2px $curb-yellow;
+            color: $curb-white;
             letter-spacing: 2px;
 
             h2 {
@@ -106,7 +106,7 @@ $curb-white: #fafbfb;
                 transform: rotate(10deg);
                 background-color: black;
                 border: 3px solid $curb-yellow;
-                border-radius: 0.3em;
+                border-radius: 0.2em;
                 width: 10em;
                 text-align: center;
                 padding: 1em;
@@ -114,7 +114,7 @@ $curb-white: #fafbfb;
                 margin-left: 10em;
                 font-family: 'Helvetica';
                 font-style: italic;
-                color: white;
+                color: $curb-white;
             }
 
             .speech-bubble .arrow {
@@ -151,7 +151,7 @@ $curb-white: #fafbfb;
             }
 
             img {
-                border-radius: 3%;
+                border-radius: 0.2rem;
                 // padding: 1rem;
             }
         }

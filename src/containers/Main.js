@@ -7,9 +7,9 @@ export default function Main(props) {
     const displayContainer = () => {
         if (props.display === "home") {
             return <Home />
-        } else if (props.display == "docs") {
+        } else if (props.display === "docs") {
             return <Docs />
-        } else if (props.display == "about"){
+        } else if (props.display === "about"){
             return <About />
         }        
     }

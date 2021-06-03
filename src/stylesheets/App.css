@@ -67,7 +67,7 @@
 }
 .title-section .showcase {
   background: black;
-  padding: 1rem;
+  padding: 9rem;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -77,10 +77,10 @@
 .title-section .showcase .character-card {
   display: flex;
   background: black;
-  margin: 1rem;
-  border-radius: 3%;
-  box-shadow: 5px 5px 5px #fec901;
-  color: white;
+  margin: 2.5rem;
+  border-radius: 0.2rem;
+  box-shadow: 3px 3px 2px #fec901;
+  color: #fafbfb;
   letter-spacing: 2px;
 }
 .title-section .showcase .character-card h2 {
@@ -94,7 +94,7 @@
   transform: rotate(10deg);
   background-color: black;
   border: 3px solid #fec901;
-  border-radius: 0.3em;
+  border-radius: 0.2em;
   width: 10em;
   text-align: center;
   padding: 1em;
@@ -102,7 +102,7 @@
   margin-left: 10em;
   font-family: "Helvetica";
   font-style: italic;
-  color: white;
+  color: #fafbfb;
 }
 .title-section .showcase .character-card .speech-bubble .arrow {
   border-style: solid;
@@ -132,7 +132,7 @@
   font-size: 12px;
 }
 .title-section .showcase .character-card img {
-  border-radius: 3%;
+  border-radius: 0.2rem;
 }
 
 .docs-navbar {
