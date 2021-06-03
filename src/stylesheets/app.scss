@@ -87,12 +87,12 @@ $curb-white: #fafbfb;
         
         .character-card {
             display: flex;
-            background:rgba(151, 150, 150, 0.281);
+            background:black;
             margin: 1rem;
             border-radius: 3%;
             box-shadow: 5px 5px 5px $curb-yellow;
             color: white;
-            letter-spacing: 3px;
+            letter-spacing: 2px;
 
             h2 {
                 margin-top: 1em;
@@ -104,9 +104,9 @@ $curb-white: #fafbfb;
 
             .speech-bubble {
                 transform: rotate(10deg);
-                background-color: white;
+                background-color: black;
                 border: 3px solid $curb-yellow;
-                border-radius: 1em;
+                border-radius: 0.3em;
                 width: 10em;
                 text-align: center;
                 padding: 1em;
@@ -114,7 +114,7 @@ $curb-white: #fafbfb;
                 margin-left: 10em;
                 font-family: 'Helvetica';
                 font-style: italic;
-                color: black;
+                color: white;
             }
 
             .speech-bubble .arrow {
@@ -140,13 +140,14 @@ $curb-white: #fafbfb;
 
             .character-info {
                 // margin-top: 4.5em;
-                padding: 3em;
+                padding: 1em;
                 padding-bottom: 0.5em;
                 padding-top: 4.7em;
             }
 
             p {
                 font-family: 'Helvetica';
+                font-size: 12px;
             }
 
             img {
