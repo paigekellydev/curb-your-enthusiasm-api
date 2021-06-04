@@ -8,7 +8,10 @@ export default function CharacterCard({character}) {
         return random_quote
     }
 
+    const char_url = `https://curb-your-enthusiasm.herokuapp.com/characters/${character.id}`
+
     return (
+        <a href={char_url}>
         <div className="character-card">
             <section>
                 <div className="speech-bubble">
@@ -27,5 +30,6 @@ export default function CharacterCard({character}) {
                 <p>Featured in {character.total_episodes} episodes</p>
             </section>
         </div>
+        </a>
     )
 }

@@ -21,7 +21,7 @@ export default function DocsNavBar() {
                     <li className="sub-list">Get all characters</li>
                 </a>
                 <a href="#">
-                    <li className="sub-list">Get a single character</li>
+                    <li className="sub-list">Get a singular character</li>
                 </a>
                 <a href="#">
                     <li>
@@ -29,9 +29,27 @@ export default function DocsNavBar() {
                     </li>
                 </a>
                 <a href="#">
+                    <li className="sub-list">Episode schema</li>
+                </a>
+                <a href="#">
+                    <li className="sub-list">Get all episodes</li>
+                </a>
+                <a href="#">
+                    <li className="sub-list">Get a singular episode</li>
+                </a>
+                <a href="#">
                     <li>
                         <h2>Quote</h2>
                     </li>
+                </a>
+                <a href="#">
+                    <li className="sub-list">Quote schema</li>
+                </a>
+                <a href="#">
+                    <li className="sub-list">Get all quotes</li>
+                </a>
+                <a href="#">
+                    <li className="sub-list">Get a singular quote</li>
                 </a>
             </ul>
         </aside>

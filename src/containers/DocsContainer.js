@@ -1,33 +1,16 @@
 import React from 'react'
-import { CodeBlock, CopyBlock, dracula } from 'react-code-blocks'
+import CharacterSchemaTable from '../components/CharacterSchemaTable'
+import QuoteSchemaTable from '../components/QuoteSchemaTable'
+import EpisodeSchemaTable from '../components/QuoteSchemaTable'
 export default function DocsContainer() {
 
-    const text = `handleOnClick = (pageName) => {
-
-    if (pageName === 'home') {
-      this.setState({
-        display: "home"
-      })
-    } else if (pageName === 'docs') {
-      this.setState({
-        display: "docs"
-      })
-    } else if (pageName === 'about') {
-      this.setState({
-        display: "about"
-      })
-    } 
-  }`
     return (
         <div className="docs-container">
             <h2>Introduction</h2>
-            <CodeBlock 
-                text={text}
-                language={"jsx"}
-                showLineNumbers={false}
-                theme={dracula}
-                codeBlock
-            />
+            <p>This documentation will help you get familiar with the resources of the Curb Your Enthusiasm API.</p>
+            <CharacterSchemaTable />
+            <EpisodeSchemaTable />
+            <QuoteSchemaTable />
         </div>
     )
 }

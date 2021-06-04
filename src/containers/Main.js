@@ -10,7 +10,7 @@ export default function Main(props) {
         } else if (props.display === "docs") {
             return <Docs />
         } else if (props.display === "about"){
-            return <About />
+            return <About className="about-page"/>
         }        
     }
 
