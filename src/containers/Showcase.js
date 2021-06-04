@@ -10,15 +10,15 @@ class Showcase extends Component {
     }
 
     componentDidMount() {
-        fetch('https://rickandmortyapi.com/api/character')
+        fetch('https://curb-your-enthusiasm.herokuapp.com/random_characters')
             .then(response => response.json())
-            .then(characters => this.setState({characters: characters.results}))
+            .then(characters => this.setState({characters: characters}))
     }
 
     displayCharacters = () => {
         return this.state.characters.map(character => {
             return (
-                <CharacterCard character={character}/>
+                <CharacterCard character={character} key={character.id}/>
             )
         })
     }
