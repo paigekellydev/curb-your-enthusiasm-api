@@ -111,7 +111,8 @@ $curb-white: #fafbfb;
                 text-align: center;
                 padding: 1em;
                 position: absolute;
-                margin-left: 10em;
+                margin-left: 11em;
+                margin-top: -1em;
                 font-family: 'Helvetica';
                 font-style: italic;
                 color: $curb-white;
@@ -150,9 +151,10 @@ $curb-white: #fafbfb;
                 font-size: 12px;
             }
 
-            img {
+            .character-card-image {
                 border-radius: 0.2rem;
-                // padding: 1rem;
+                height: 100%;
+                width: 100%;
             }
         }
     }

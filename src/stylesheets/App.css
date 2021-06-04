@@ -99,7 +99,8 @@
   text-align: center;
   padding: 1em;
   position: absolute;
-  margin-left: 10em;
+  margin-left: 11em;
+  margin-top: -1em;
   font-family: "Helvetica";
   font-style: italic;
   color: #fafbfb;
@@ -131,8 +132,10 @@
   font-family: "Helvetica";
   font-size: 12px;
 }
-.title-section .showcase .character-card img {
+.title-section .showcase .character-card .character-card-image {
   border-radius: 0.2rem;
+  height: 100%;
+  width: 100%;
 }
 
 .docs-navbar {
