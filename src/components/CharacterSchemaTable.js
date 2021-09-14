@@ -67,6 +67,7 @@ export default function CharacterSchemaTable() {
             },
         //...
     ]`;
+    
     const random_characters_text = `
     GET https://curb-your-enthusiasm.herokuapp.com/random_characters
 
